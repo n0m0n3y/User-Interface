@@ -49,7 +49,8 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	max-width: 100%;
 }
 
 html, body {
@@ -64,3 +65,124 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+
+.body{
+	max-width: 100%;
+}
+nav.navigation{
+	color: gray;
+	display: inline-block;
+	width: 100%;
+	margin-left: 10%;
+	margin-top: 0%;
+	margin-bottom: 5%;
+	max-width: 100%;
+}
+.navigation a{
+	vertical-align: middle;
+	text-decoration: none;
+	color: grey;
+	padding:3%;
+	text-align: center;
+}
+.logo{
+	max-width: 100%;
+	margin-right: 2%;
+	margin-left: 6%;
+	margin-top: 3%;
+	display: inline-block;
+}
+/* Above code got my nav bar and logo where i want it. */
+
+.Innovation{
+	font-size:80px;
+	padding-bottom: 20px;
+	padding-top: -50px;
+}
+
+.getStarted{
+	color: black;
+	padding:5px 40px;
+	border: solid black 2px;
+}
+
+.main{
+	height: 400px;
+}
+
+.left{
+	display: inline-block;
+	height: 100px;
+	width: 40%;
+	text-align: center;
+}
+
+.right{
+	display: inline-block;
+	height: 100px;
+	width: 40%;
+	text-align: center;
+	padding-top: 50px;
+}
+/* My code above is for myInnovation On Demand & getStarted button and img  */
+
+.firstRuler{
+	margin: 80px auto 0px auto;
+	width: 1000px;
+}
+
+.secondRuler{
+margin: 80px auto 80px auto;
+width: 1000px;
+}
+
+/* My code above is for my Horozontal rules */
+.top-content{
+	width: 38%;
+	display: inline-block;
+ 	padding: 1%;
+ 	margin-left: 14%;
+}
+
+.about{
+	width: 35%;
+	display: inline-block;
+	padding: 1%;;
+}
+
+.middle-img{
+	width: 70%;
+	margin-left: 15%;
+}
+.bottom-content{
+	width: 25%;
+	display: inline-block;
+	padding: 1%;
+	margin-left: 14%;
+
+
+}
+
+.product{
+	width: 27%;
+    display: inline-block;
+    padding: 1%;
+    margin-left: 0%;
+}
+
+.vision{
+	width: 26%;
+    display: inline-block;
+    padding: 1%;
+    margin-left: 0%;
+}
+.contact{
+	width: 26%;
+    display: inline-block;
+    padding: 1%;
+	margin-left: 14%;}
+.copyright{
+	text-align: center;
+	padding: 6%;
+}
